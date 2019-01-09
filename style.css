@@ -39,7 +39,7 @@ nav a {
 
 h1 {
 
-    color: #91c63c;
+    color: #9dd642;
   
 }
 
@@ -63,8 +63,8 @@ nav li{
 nav li:hover {
 
 
-    background-color: rgba(130, 179, 52, 0.856);
-    transition: .7s;
+    background-color: rgba(139, 201, 40, 0.856);
+    transition: 1.2s;
 
 }
 
@@ -148,6 +148,13 @@ dt {
 
 }
 
+
+.divsechs {
+
+    display: flex;
+    justify-content: center;
+
+}
 hr {
 
     border: solid 1px rgb(157, 162, 167);
