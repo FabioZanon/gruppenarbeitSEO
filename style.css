@@ -14,11 +14,14 @@ display: inline;
 
 header {
     display: flex;
-    align-items: center;
-    position: absolute;
+    justify-content: space-between;
+    position: fixed;
     background-color: rgb(42, 45, 49);
     left: 0px;
     right: 0px;
+    top: 0px;
+    height: 51px;
+    
     
     
 }
@@ -30,6 +33,7 @@ nav a {
     text-decoration: none;
     color: white;
     font-family:'Josefin Sans', sans-serif;
+    
    
 }
 
@@ -44,20 +48,23 @@ nav li{
     display: inline;
     padding: 19px;
     background: rgb(42, 45, 49);
+    
+   
    
    
 }
 
-nav {
+ 
 
-    left: 50px;
-}
+
+
+
 
 nav li:hover {
 
 
     background-color: rgba(130, 179, 52, 0.856);
-    transition: .6s;
+    transition: .7s;
 
 }
 
@@ -71,9 +78,9 @@ h3 {
 
 .img {
 
-    height: 55px;
+    height: 51px;
 
-    width: 105px;
+    width: 101px;
 
 
 }
@@ -81,4 +88,116 @@ p {
 
     color: rgb(42, 45, 49);
     max-width: 500px;
+    
+}
+
+.main {
+
+
+   text-align: center;
+}
+
+dd {
+
+
+    color: rgb(42, 45, 49);
+    max-width: 500px;
+    
+}
+
+
+dt {
+
+    color: rgb(42, 45, 49);
+    
+}
+
+.diveins {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.divzwei {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.divdrei {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.divvier {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.divfünf {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+hr {
+
+    border: solid 1px rgb(157, 162, 167);
+    max-width: 1000px;
+   
+}
+
+footer {
+
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(42, 45, 49);
+    height: 2.4cm;
+    
+
+    
+}
+
+#fb {
+
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    margin-top: 0.4cm;
+    float: right;
+    padding: 8px;
+}
+
+#mailpic {
+
+    
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 0.4cm;
+    float: right;
+    padding: 8px;
+    
+
+}
+
+#twitter {
+
+
+    height: 50px;
+    width: 50px;
+    margin-top: 0.4cm;
+    float: right;
+    padding: 8px;
+    
+
 }
