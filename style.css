@@ -1,0 +1,62 @@
+body {
+
+    background-color: white;
+    font-family:'Josefin Sans', sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+
+
+.naveins {
+
+display: inline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(42, 45, 49);
+    left: 0px;
+    right: 0px;
+    
+    
+}
+
+
+nav a {
+
+
+    text-decoration: none;
+    color: white;
+    font-family:'Josefin Sans', sans-serif;
+   
+}
+
+h1 {
+
+    color: #91c63c;
+  
+}
+
+nav li{
+
+    display: inline;
+    padding: 19px;
+    background: rgb(42, 45, 49);
+   
+   
+}
+
+nav {
+
+    left: 50px;
+}
+
+nav li:hover {
+
+
+    background-color: rgba(130, 179, 52, 0.856);
+    transition: .6s;
+
+}
