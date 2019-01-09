@@ -60,3 +60,25 @@ nav li:hover {
     transition: .6s;
 
 }
+
+h3 {
+
+    color: rgb(42, 45, 49);
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.img {
+
+    height: 55px;
+
+    width: 105px;
+
+
+}
+p {
+
+    color: rgb(42, 45, 49);
+    max-width: 500px;
+}
