@@ -1,11 +1,30 @@
 body {
 
-    background-color: white;
+   
     font-family:'Josefin Sans', sans-serif;
-    color: rgb(253, 253, 253);
+    margin: 0;
+    
+    
+    color: white;
+    background: url(../img/seo-bild.PNG);
+   
+
 }
 
+.wrapper {
 
+        background: rgba(255, 255, 255, 0.966);
+
+
+}
+
+.wrapper2 {
+
+        display: flex;
+        justify-content: center;
+
+
+}
 
 .naveins {
 
@@ -27,46 +46,8 @@ header {
 }
 
 
-nav a {
-
-
-    text-decoration: none;
-    color: white;
-    font-family:'Josefin Sans', sans-serif;
-    
-   
-}
-
-h1 {
-
-    color: #9dd642;
   
-}
 
-nav li{
-
-    display: inline;
-    padding: 19px;
-    background: rgb(42, 45, 49);
-    
-   
-   
-   
-}
-
- 
-
-
-
-
-
-nav li:hover {
-
-
-    background-color: rgba(139, 201, 40, 0.856);
-    transition: 1.2s;
-
-}
 
 .dropdown:hover .dropdown-content {
     display:inline;
@@ -76,9 +57,6 @@ nav li:hover {
     display:none;
 }
 
-.display-content a {
-
-}
 
 h3 {
 
@@ -197,7 +175,15 @@ footer {
 }
 
 #fb:hover {
+    
+    height: 55px;
+    width: 55px;
+}
 
+#twitter:hover {
+
+    height: 55px;
+    width: 55px;
 }
 
 #mailpic {
@@ -213,8 +199,11 @@ footer {
 
 }
 
+
 #mailpic:hover {
 
+    height: 55px;
+    width: 55px;
 }
 
 #twitter {
@@ -229,9 +218,7 @@ footer {
 
 }
 
-#twitter:hover {
-    
-}
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -240,12 +227,15 @@ footer {
     padding: 16px;
     font-size: 16px;
     border: none;
+    
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline;
+    left: 0px;
+    
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -267,11 +257,30 @@ footer {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: rgb(42, 45, 49);
+                                                        transition: .4s}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: rgb(111, 207, 15);
+                                    transition: .5s;}
   
+  
+
+.navigation {
+
+    display: inherit;
+}
+
+.dropdown-content a:hover {
+
+
+    color: white;
+}
+
+h1 {
+
+    margin: 0px;
+}
