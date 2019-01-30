@@ -359,3 +359,33 @@ h1 {
         border-color: rgb(42, 45, 49);
         border-radius: 15px;
     }
+
+    .richtig {
+
+
+
+        color: rgb(111, 207, 15);
+    }
+
+    .richtigso {
+
+
+            border: solid;
+            border-width: 2px;
+            border-color: rgb(42, 45, 49);
+            border-radius: 15px;
+
+
+    }
+
+    .Rechte {
+        color: red;
+        
+    }
+
+    .Linke {
+
+        color: rgb(111, 207, 15);        
+      
+
+    }
