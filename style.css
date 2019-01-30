@@ -345,4 +345,17 @@ h1 {
 
     }
 
+
+    .falsch {
+
+            color: red;
+
+
+    }
     
+    .nichtso {
+        border: solid;
+        border-width: 2px;
+        border-color: rgb(42, 45, 49);
+        border-radius: 15px;
+    }
