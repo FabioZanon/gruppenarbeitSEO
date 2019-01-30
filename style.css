@@ -7,6 +7,7 @@ body {
     
     color: white;
     background: url(../img/seo-bild.PNG);
+    border-radius: 15px;
    
 
 }
@@ -40,6 +41,10 @@ header {
     right: 0px;
     top: 0px;
     height: 51px;
+    border: solid;
+    border-color: rgb(111, 207, 15);
+    border-width: 1px;
+    border-radius: 10px;
     
     
     
@@ -71,6 +76,7 @@ h3 {
     height: 51px;
 
     width: 101px;
+    border-radius: 15px;
 
 
 }
@@ -159,6 +165,10 @@ footer {
     left: 0px;
     background-color: rgb(42, 45, 49);
     height: 2.4cm;
+    border: solid;
+    border-color: rgb(111, 207, 15);
+    border-width: 1px;
+
     
 
     
@@ -281,6 +291,14 @@ footer {
 }
 
 h1 {
+    color: rgb(42, 45, 49);
 
     margin: 0px;
+}
+
+.titel {
+
+        border: solid;
+        border-width: 2px;
+         color: rgb(42, 45, 49);
 }
