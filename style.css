@@ -15,14 +15,15 @@ body {
 .wrapper {
 
         background: rgba(255, 255, 255, 0.966);
-
+        
+        
 
 }
 
 .wrapper2 {
 
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
 
 
 }
@@ -44,7 +45,7 @@ header {
     border: solid;
     border-color: rgb(111, 207, 15);
     border-width: 1px;
-    border-radius: 10px;
+    
     
     
     
@@ -149,6 +150,15 @@ dt {
 
     display: flex;
     justify-content: center;
+
+}
+
+.divsieben {
+
+    display: flex;
+    justify-content: center;
+
+
 
 }
 hr {
@@ -281,7 +291,9 @@ footer {
 
 .navigation {
 
-    display: inherit;
+  display: inherit;
+  margin-right: 68px;
+
 }
 
 .dropdown-content a:hover {
@@ -301,4 +313,36 @@ h1 {
         border: solid;
         border-width: 2px;
          color: rgb(42, 45, 49);
+         border-radius: 15px;
+         
 }
+
+.verlinkung {
+
+    border: solid;
+    border-width: 2px;
+    
+     color: rgb(42, 45, 49);
+     border-radius: 15px;
+               
+    }
+    
+    .responsive {
+        
+    border: solid;
+    border-width: 2px;
+    color: rgb(42, 45, 49);  
+    border-radius: 15px;  
+        
+    }
+
+    .anpassung {
+
+        border: solid;
+        border-width: 2px;
+        color: rgb(238, 236, 236);
+        border-radius: 15px;  
+
+    }
+
+    
