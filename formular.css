@@ -2,26 +2,28 @@ body {
 
    
     font-family:'Josefin Sans', sans-serif;
-    margin: 0;
-    bottom: 0;
-    
-    
-    color: white;
-    background: rgb(255, 255, 255);
+    margin: 0;    
     border-radius: 15px;
-   
+   background:url(img/seo-bild.PNG);
 
 }
 
 
+.wrapper {
+    background: rgba(255, 255, 255, 0.925);
+
+
+}
 
 .wrapper2 {
 
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
+        color: white;
 
 
 }
+
 
 .naveins {
 
@@ -141,6 +143,11 @@ dt {
 }
 
 
+.madeby {
+
+    color: white;
+}
+
 .divsechs {
 
     display: flex;
@@ -165,7 +172,7 @@ hr {
 
 footer {
 
-    position: absolute;
+    position: inherit;
     right: 0px;
     left: 0px;
     background-color: rgb(42, 45, 49);
@@ -409,6 +416,14 @@ h1 {
     }
 
     
+.iframe {
+        padding-top: 140px;
+
+        display:flex;
+        justify-content:center;
+   
+    }
+
 
     #contact {
 
@@ -494,8 +509,9 @@ h1 {
 
 
     color: black;
-    margin-top: 80px;
+    padding-top: 80px;
     text-align: center;
+    
   }
 
 
@@ -514,4 +530,11 @@ h1 {
 
 
   }
- 
+
+  .anker {
+
+    text-decoration: none;
+    color: rgb(111, 207, 15); 
+  }
+
+  
