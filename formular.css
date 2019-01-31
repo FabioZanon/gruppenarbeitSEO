@@ -1,0 +1,489 @@
+body {
+
+   
+    font-family:'Josefin Sans', sans-serif;
+    margin: 0;
+    bottom: 0;
+    
+    
+    color: white;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+   
+
+}
+
+
+
+.wrapper2 {
+
+        display: flex;
+        justify-content: center;
+
+
+}
+
+.naveins {
+
+display: inline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(42, 45, 49);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 51px;
+    border: solid;
+    border-color: rgb(111, 207, 15);
+    border-width: 1px;
+    
+    
+    
+    
+}
+
+
+  
+
+
+.dropdown:hover .dropdown-content {
+    display:inline;
+}
+
+.dropdown-content {
+    display:none;
+}
+
+
+h3 {
+
+    color: rgb(42, 45, 49);
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+.img {
+
+    height: 51px;
+
+    width: 101px;
+    border-radius: 15px;
+
+
+}
+p {
+
+    color: rgb(0, 0, 0);
+    max-width: 5000px;
+    
+}
+
+.main {
+
+
+   text-align: center;
+}
+
+dd {
+
+
+    color: rgb(42, 45, 49);
+    max-width: 500px;
+    
+}
+
+
+dt {
+
+    color: rgb(42, 45, 49);
+    
+}
+
+.diveins {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.divzwei {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.divdrei {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.divvier {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.divfünf {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.divsechs {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.divsieben {
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+hr {
+
+    border: solid 1px rgb(157, 162, 167);
+    max-width: 1000px;
+   
+}
+
+footer {
+
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(42, 45, 49);
+    height: 2.4cm;
+    border: solid;
+    border-color: rgb(111, 207, 15);
+    border-width: 1px;
+    bottom: 0;
+    
+    
+
+    
+}
+
+#fb {
+
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    margin-top: 0.4cm;
+    float: right;
+    padding: 8px;
+}
+
+#fb:hover {
+    
+    height: 55px;
+    width: 55px;
+}
+
+#twitter:hover {
+
+    height: 55px;
+    width: 55px;
+}
+
+#mailpic {
+
+    
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 0.4cm;
+    float: right;
+    padding: 8px;
+    
+
+}
+
+
+#mailpic:hover {
+
+    height: 55px;
+    width: 55px;
+}
+
+#twitter {
+
+
+    height: 50px;
+    width: 50px;
+    margin-top: 0.4cm;
+    float: right;
+    padding: 8px;
+    
+
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline;
+    left: 0px;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(42, 45, 49);
+                                                        transition: .4s}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(111, 207, 15);
+                                    transition: .5s;}
+  
+  
+
+.navigation {
+
+  display: inherit;
+  margin-right: 68px;
+
+}
+
+.dropdown-content a:hover {
+
+
+    color: white;
+}
+
+h1 {
+    color: rgb(42, 45, 49);
+
+    margin: 0px;
+}
+
+.titel {
+
+        border: solid;
+        border-width: 2px;
+         color: rgb(42, 45, 49);
+         border-radius: 15px;
+         
+}
+
+.verlinkung {
+
+    border: solid;
+    border-width: 2px;
+    color: rgb(42, 45, 49);
+     border-radius: 15px;
+               
+    }
+    
+    .responsive {
+        
+    border: solid;
+    border-width: 2px;
+    color: rgb(42, 45, 49);  
+    border-radius: 15px;  
+        
+    }
+
+    .anpassung {
+
+        border: solid;
+        border-width: 2px;
+        color: rgb(238, 236, 236);
+        border-radius: 15px;  
+
+    }
+
+
+    .falsch {
+
+            color: red;
+
+
+    }
+    
+    .nichtso {
+        border: solid;
+        border-width: 2px;
+        border-color: rgb(42, 45, 49);
+        border-radius: 15px;
+    }
+
+    .richtig {
+
+
+
+        color: rgb(111, 207, 15);
+    }
+
+    .richtigso {
+
+
+            border: solid;
+            border-width: 2px;
+            border-color: rgb(42, 45, 49);
+            border-radius: 15px;
+
+
+    }
+
+    .Rechte {
+        color: red;
+        
+    }
+
+    .Linke {
+
+        color: rgb(111, 207, 15);        
+      
+
+    }
+
+    li {
+
+
+        color: black;
+        max-width: 500px;
+        
+    }
+
+    
+    fieldset {
+                display: flex;
+                justify-content: center;
+                background-color:rgba(111, 207, 15, 0.575); 
+                border-radius: 10px;
+    }
+
+    #legend {
+
+        color: black;
+        text-align: center;
+        
+    }
+
+    
+
+    #contact {
+
+        display: flex;
+        justify-content: center;
+           
+        
+    }
+
+.divneun {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+  .buttonsubmit {
+
+
+  
+    border-radius: 10px;
+    color: black;
+    
+  }
+
+
+  .wrapper3 {
+
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .home {
+
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   color: BLACK;
+   
+  }
+
+  .home:hover {
+
+
+    color: white;
+  }
+
+  .buttonhome {
+
+    border: solid;
+    
+   border-color: black;
+   border-radius: 10px;
+   border-width: 2px;
+   background-color: white;
+  }
+
+  .buttonhome:hover {
+
+    border: solid;
+  
+   border-color: black;
+   border-radius: 10px;
+   border-width: 2px;
+  
+   background-color: rgb(42, 45, 49);
+   
+
+
+  }
+
+  .buttonsubmit:hover {
+
+
+    background-color: white;
+  }
