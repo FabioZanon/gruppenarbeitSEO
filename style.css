@@ -427,3 +427,24 @@ h1 {
     }
 
     
+    @media (max-width: 800px) 
+    
+    {
+        .navigation {
+            width: 75%;
+        }
+
+        .responsive {
+            width: 500px;
+            height: 300px;
+        }
+        
+        #responsive-1 {
+            width: 300px;
+            height: 400px;
+        }
+
+        .divsieben {
+            size: 75%;
+        }
+    }
