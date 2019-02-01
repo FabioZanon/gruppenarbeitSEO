@@ -436,12 +436,12 @@ h1 {
 
         .responsive {
             width: 500px;
-            height: 300px;
+            height: 320px;
         }
         
         #responsive-1 {
             width: 280px;
-            height: 400px;
+            height: 420px;
         }
 
         .divsieben {
@@ -454,8 +454,8 @@ h1 {
         }
 
         .anpassung {
-            width: 380px;
-            height: 150px;
+            width: 480px;
+            height: 180px;
 
         }
         
@@ -466,6 +466,38 @@ h1 {
         h1 {
             font-size: 25px;
         }
+
+        .titel {
+            width: 500px;
+            height: 180px;
+        }
+
+        .richtigso-1 {
+            width: 400px;
+        }
+
+        .nichtso-1 {
+            width: 400px;
+        }
         
+        .nichtso {
+            width: 330px;
+        }
+
+        .richtigso {
+            width: 350px;
+        }
+
+        footer {
+            size: 75%;
+        }
+
+        footer {
+            size: 50%;
+        }
+        
+        .trennlinie {
+            width: 85%;
+        }
         }
 
