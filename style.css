@@ -447,4 +447,10 @@ h1 {
         .divsieben {
             size: 75%;
         }
+
+        .verlinkung {
+            width: 500px;
+            height: 300px;
+        }
+
     }
