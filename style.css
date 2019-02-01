@@ -445,7 +445,7 @@ h1 {
         }
 
         .divsieben {
-            size: 75%;
+        
         }
 
         .verlinkung {
@@ -454,5 +454,6 @@ h1 {
         }
 
         .anpassung {
-        
+            width: 380px;
+            height: 150px;
         }
