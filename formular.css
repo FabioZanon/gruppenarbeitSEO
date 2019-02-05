@@ -177,7 +177,7 @@ hr {
 
 footer {
 
-    position: inherit;
+    position: fixed;
     right: 0px;
     left: 0px;
     background-color: rgb(42, 45, 49);
@@ -534,6 +534,7 @@ h1 {
 
     display: flex;
     justify-content: center;
+    padding-bottom: 150px;
 
 
   }
