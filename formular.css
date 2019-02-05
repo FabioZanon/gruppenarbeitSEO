@@ -161,8 +161,13 @@ dt {
     justify-content: center;
 
 
-
 }
+
+.divsieben dd {
+    padding-bottom: 35px;
+}
+
+
 hr {
 
     border: solid 1px rgb(157, 162, 167);
@@ -520,6 +525,8 @@ h1 {
 
     color: black;
     text-align: center;
+    display:flex;
+    justify-content: center;
 
   }
 
