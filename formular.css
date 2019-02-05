@@ -248,7 +248,7 @@ footer {
 
 
 
-/* Dropdown Button */
+/* Dropdown  */
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -291,7 +291,7 @@ footer {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* Change the background color of the dropdown  when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: rgb(111, 207, 15);
                                     transition: .5s;}
   
@@ -447,7 +447,7 @@ h1 {
 
 
 
-  .buttonsubmit {
+  .submit {
 
 
   
@@ -478,7 +478,7 @@ h1 {
     color: white;
   }
 
-  .buttonhome {
+  .home {
 
     border: solid;
     
@@ -488,7 +488,7 @@ h1 {
    background-color: white;
   }
 
-  .buttonhome:hover {
+  .home:hover {
 
     border: solid;
   
@@ -502,7 +502,7 @@ h1 {
 
   }
 
-  .buttonsubmit:hover {
+  .submit:hover {
 
 
     background-color: white;
@@ -510,11 +510,16 @@ h1 {
 
 
   .download-btn {
-    border-radius: 3px;
+    border-radius: 8px;
     background-color: rgb(42, 45, 49);
-    padding: 10px;
+    padding: 7px;
+    margin: 5px 0 10px 0;
   }
 
+  #link-download {
+      color: white;
+      text-decoration:none;
+  }
   
   .auftrag {
 
