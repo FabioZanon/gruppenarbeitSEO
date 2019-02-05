@@ -509,6 +509,12 @@ h1 {
   }
 
 
+  .download-btn {
+    border-radius: 3px;
+    background-color: rgb(42, 45, 49);
+    padding: 10px;
+  }
+
   
   .auftrag {
 
