@@ -177,7 +177,7 @@ hr {
 
 footer {
 
-    position: fixed;
+    position: inherit;
     right: 0px;
     left: 0px;
     background-color: rgb(42, 45, 49);
@@ -573,6 +573,26 @@ h1 {
       text-decoration: none;
       color:rgb(111, 207, 15);
   }
+
+
+.randinfo {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#randinfo-titel {
+    text-decoration: underline;
+}
+
+#link-w3schools {
+    color:rgb(111, 207, 15);
+    text-decoration: none;
+}
+
+#link-w3schools:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
 
   @media (max-width:700px)
   {

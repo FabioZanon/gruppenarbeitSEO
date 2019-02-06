@@ -171,6 +171,11 @@ dt {
     flex-direction: column;
     margin: 0px auto;
 }
+
+.warum-seo-list {
+    list-style-position: inside;
+    list-style-type: square;
+}
 hr {
 
     border: solid 1px rgb(157, 162, 167);
@@ -424,6 +429,9 @@ h1 {
         color: rgba(111, 207, 15, 0.575);
       }
 
+      .hier:hover {
+          text-decoration: underline;
+      }
     .avalide {
 
         text-decoration: none;
