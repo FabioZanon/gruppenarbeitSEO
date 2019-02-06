@@ -162,10 +162,14 @@ dt {
 .divsieben {
 
     display: flex;
+    justify-content: center;$
+
+}
+
+.warum-seo-list {
+    display:flex;
     justify-content: center;
-
-
-
+    position: inherit;
 }
 hr {
 
