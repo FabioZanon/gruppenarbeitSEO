@@ -321,6 +321,7 @@ footer {
 
 }
 
+
 .dropdown-content a:hover {
 
 
@@ -339,7 +340,7 @@ h1 {
         border-width: 2px;
          color: rgb(42, 45, 49);
          border-radius: 15px;
-         box-shadow: 5px 10px 30px;
+         box-shadow: 0px 10px 50px;
  
 }
 
@@ -350,7 +351,7 @@ h1 {
     
      color: rgb(42, 45, 49);
      border-radius: 15px;
-     box-shadow: 5px 10px 30px;
+     box-shadow: 0px 10px 50px;
 
                
     }
@@ -361,19 +362,10 @@ h1 {
     border-width: 2px;
     color: rgb(42, 45, 49);  
     border-radius: 15px; 
-    box-shadow: 5px 10px 30px;
+    box-shadow: 0px 10px 50px;
 
     }
 
-    .anpassung {
-
-        border: solid;
-        border-width: 2px;
-        color: rgb(238, 236, 236);
-        border-radius: 15px;  
-        box-shadow: 5px 10px 30px;
-
-    }
 
 
     .falsch {
@@ -388,7 +380,7 @@ h1 {
         border-width: 2px;
         border-color: rgb(42, 45, 49);
         border-radius: 15px;
-        box-shadow: 5px 10px 30px;
+        box-shadow: 0px 10px 50px;
 
     }
 
@@ -406,7 +398,7 @@ h1 {
             border-width: 2px;
             border-color: rgb(42, 45, 49);
             border-radius: 15px;
-            box-shadow: 5px 10px 30px;
+            box-shadow: 0px 10px 50px;
 
 
     }
@@ -452,12 +444,12 @@ h1 {
     }
 
     .richtigso-2 {
-        box-shadow: 5px 10px 30px;
+        box-shadow: 0px 10px 50px;
 
     }
 
     .nichtso-1, .richtigso-1 {
-        box-shadow: 5px 10px 30px;
+        box-shadow: 0px 10px 50px;
 
     }
     
