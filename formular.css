@@ -518,11 +518,20 @@ h1 {
     background-color: rgb(42, 45, 49);
     padding: 7px;
     margin: 5px 0 10px 0;
+    color:white;
+  }
+
+  .download-btn:hover {
+      cursor:hand;
   }
 
   #link-download {
       color: white;
       text-decoration:none;
+  }
+
+  #link-download:hover {
+    cursor: hand;
   }
   
   .auftrag {
