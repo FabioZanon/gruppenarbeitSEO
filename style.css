@@ -339,7 +339,8 @@ h1 {
         border-width: 2px;
          color: rgb(42, 45, 49);
          border-radius: 15px;
-         
+         box-shadow: 5px 10px 30px;
+ 
 }
 
 .verlinkung {
@@ -349,6 +350,8 @@ h1 {
     
      color: rgb(42, 45, 49);
      border-radius: 15px;
+     box-shadow: 5px 10px 30px;
+
                
     }
     
@@ -357,8 +360,9 @@ h1 {
     border: solid;
     border-width: 2px;
     color: rgb(42, 45, 49);  
-    border-radius: 15px;  
-        
+    border-radius: 15px; 
+    box-shadow: 5px 10px 30px;
+
     }
 
     .anpassung {
@@ -367,6 +371,7 @@ h1 {
         border-width: 2px;
         color: rgb(238, 236, 236);
         border-radius: 15px;  
+        box-shadow: 5px 10px 30px;
 
     }
 
@@ -383,6 +388,8 @@ h1 {
         border-width: 2px;
         border-color: rgb(42, 45, 49);
         border-radius: 15px;
+        box-shadow: 5px 10px 30px;
+
     }
 
     .richtig {
@@ -399,6 +406,7 @@ h1 {
             border-width: 2px;
             border-color: rgb(42, 45, 49);
             border-radius: 15px;
+            box-shadow: 5px 10px 30px;
 
 
     }
@@ -443,7 +451,15 @@ h1 {
         text-decoration:underline;
     }
 
+    .richtigso-2 {
+        box-shadow: 5px 10px 30px;
 
+    }
+
+    .nichtso-1, .richtigso-1 {
+        box-shadow: 5px 10px 30px;
+
+    }
     
     @media (max-width: 700px) 
     
@@ -506,9 +522,6 @@ h1 {
             width: 350px;
         }
 
-        footer {
-            size: 75%;
-        }
 
         footer {
             size: 50%;
@@ -528,6 +541,7 @@ h1 {
 
         .dropbtn {
             font-size: 75%;
+            padding-bottom: 20px;
         }
 
         .navigation {
@@ -540,6 +554,10 @@ h1 {
             height: 30px;
             display:flex;
             justify-content: center;
+        }
+
+        .warum-seo-list {
+            font-size: 75%;
         }
 
         }
