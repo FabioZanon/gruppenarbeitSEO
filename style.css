@@ -162,14 +162,14 @@ dt {
 .divsieben {
 
     display: flex;
-    justify-content: center;$
+    justify-content: center;
 
 }
 
-.warum-seo-list {
-    display:flex;
-    justify-content: center;
-    position: inherit;
+.warum-seo-list li  {
+    text-align:center;
+    flex-direction: column;
+    margin: 0px auto;
 }
 hr {
 
