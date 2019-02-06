@@ -562,11 +562,18 @@ h1 {
 
   #keyword-link {
       text-decoration: none;
-      color:
+      color:rgb(111, 207, 15);
   }
 
-  @media (max-width:800px)
+  @media (max-width:700px)
   {
+    .navigation {
+        width: 75%;
+    }
+
+    footer {
+        position:inherit;
+    }
 
     }  
   
