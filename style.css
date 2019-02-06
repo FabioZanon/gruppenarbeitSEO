@@ -427,6 +427,11 @@ h1 {
     }
 
 
+    .avalide:hover {
+        text-decoration:underline;
+    }
+
+
     
     @media (max-width: 700px) 
     
