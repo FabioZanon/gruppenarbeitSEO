@@ -459,11 +459,12 @@ h1 {
 
     .footer-text p {
         color:white;
+
     }
 
     .footer-text {
-        position:absolute;
-        float:left;
+        position: fixed;
+        display: flex;
     }
     
     @media (max-width: 700px) 
