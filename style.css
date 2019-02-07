@@ -463,8 +463,9 @@ h1 {
     }
 
     .footer-text {
-        position: fixed;
         display: flex;
+        text-align-last:loe
+
     }
     
     @media (max-width: 700px) 
