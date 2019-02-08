@@ -42,7 +42,7 @@ display: inline;
 header {
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     background-color: rgb(42, 45, 49);
     left: 0px;
     right: 0px;
@@ -53,8 +53,7 @@ header {
     border-width: 1px;
     
     
-    
-    
+
 }
 
 
@@ -191,9 +190,11 @@ footer {
     background-color: rgb(42, 45, 49);
     height: 2.4cm;
     border: solid;
-    border-color: rgb(111, 207, 15);
+    border-right-color: rgb(111, 207, 15);
+    border-left-color: rgb(111, 207, 15);
+    border-bottom-color: rgb(111, 207, 15);
     border-width: 1px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
     
 }
 
@@ -459,13 +460,12 @@ h1 {
 
     .footer-text p {
         color:white;
-
+        
     }
 
     .footer-text {
-        display: flex;
-        text-align-last:loe
-
+        display:flex;
+        flex-direction: column;    
     }
     
     @media (max-width: 700px) 
