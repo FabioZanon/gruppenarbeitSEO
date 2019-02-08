@@ -1,5 +1,6 @@
 html  {
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -16,20 +17,32 @@ body {
 .wrapper {
 
     background: rgba(255, 255, 255, 0.925);
+    width:100%;
+    height:100%;
      
-        
-
 }
 
 .wrapper2 {
 
-        display: flex;
-        justify-content: flex-end;
        color: white;
+}
 
+#kontakt-info {
+    text-decoration: underline;
+    font-size: 125%;
+    text-decoration: none;
 
 }
 
+.kontakt-info-text {
+    font-size: 85%;
+    display:flex;
+    flex-direction: column;
+}
+
+.kontakt-info-text p {
+    margin: 3px 0 3px 0;
+}
 .naveins {
 
 display: inline;
@@ -47,8 +60,6 @@ header {
     border: solid;
     border-color: rgb(111, 207, 15);
     border-width: 1px;
-    
-    
 
 }
 
@@ -180,9 +191,7 @@ hr {
 
 footer {
 
-    position: absolute;
-    right: 0px;
-    left: 0px;
+    position: relative;
     background-color: rgb(42, 45, 49);
     height: 2.4cm;
     border: solid;
@@ -190,9 +199,11 @@ footer {
     border-left-color: rgb(111, 207, 15);
     border-bottom-color: rgb(111, 207, 15);
     border-width: 1px;
-    padding-bottom: 120px;
+    bottom: 0px;
+    padding-bottom: 100px;
+    padding-top: 0px;
     bottom:0;
-    
+    margin:0;
 }
 
 #fb {
@@ -461,13 +472,14 @@ h1 {
 
     .footer-text p {
         color:white;
-        padding:0 0 10px 0;
-        
+        position: relative;
+        float:left;
     }
 
     .footer-text {
         display:flex;
-        flex-direction: column;    
+        flex-direction: column;
+        justify-content: flex-start;
     }
     
     @media (max-width: 700px) 
