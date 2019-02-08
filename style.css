@@ -7,10 +7,6 @@ body {
    
     font-family:'Josefin Sans', sans-serif;
     margin: 0;
-    
-    
-    
-    
     background: url(img/seo-bild.PNG);
     border-radius: 15px;
    
@@ -20,7 +16,7 @@ body {
 .wrapper {
 
     background: rgba(255, 255, 255, 0.925);
-        
+     
         
 
 }
@@ -195,6 +191,7 @@ footer {
     border-bottom-color: rgb(111, 207, 15);
     border-width: 1px;
     padding-bottom: 120px;
+    bottom:0;
     
 }
 
@@ -424,6 +421,10 @@ h1 {
         
     }
 
+    #icon-text {
+        display:none;
+    }
+
     .hier {
 
         text-decoration: none;
@@ -460,6 +461,7 @@ h1 {
 
     .footer-text p {
         color:white;
+        padding:0 0 10px 0;
         
     }
 
