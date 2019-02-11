@@ -13,6 +13,7 @@
 <link rel="mask-icon" href="safari-pinned-tab.svg" color="#161616">
 <meta name="msapplication-TileColor" content="#242a31">
 <meta name="theme-color" content="#3e3b3b">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
     <link href="style.css" type="text/css" rel="stylesheet">
@@ -25,6 +26,7 @@
     <div class="wrapper">
 
         <header>
+
             <img src="img/seo-bild.PNG" class="img" alt="seologo">
 
             <div class="navigation">
@@ -396,6 +398,19 @@
             </div>
             <br />
             <br />
+            <h3><i>Mobile SEO</i></h3>
+                <br>
+                <div class="divacht">
+                    <dd>
+
+                      Mit "mobile SEO" ist die Vereinfachung der Nutzung von 
+                      Webseiten auf Smartphones gemeint. Dazu gehört das bereits schon 
+                        erwähnte "media queries". Mobile SEO ist ein überaus wichtiger Faktor für SEO, 
+                        da es viele Leute gibt, welche viel aktiver auf den Handys als auf Computern unterwegs 
+                        sind.
+
+                    </dd>
+                </div>
 
             <dt><b><i>
                         <h3>Webseite indexieren</h3>
@@ -650,7 +665,28 @@
     </footer>
 
 
+    <a id="button"></a>
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”>
+    jQuery(document).ready(function() {
+  
+  var btn = $('#button');
 
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+});
+    </script>
+   
 
 </body>
 
