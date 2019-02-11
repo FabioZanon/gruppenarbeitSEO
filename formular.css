@@ -20,10 +20,13 @@ body {
         display: flex;
         justify-content: flex-end;
         color: white;
-
+        display:block;
 
 }
 
+.wrapper2 a {
+    color:white;
+}
 
 .naveins {
 
@@ -177,7 +180,7 @@ hr {
 
 footer {
 
-    position: inherit;
+    position: relative;
     right: 0px;
     left: 0px;
     background-color: rgb(42, 45, 49);
@@ -188,10 +191,9 @@ footer {
     border-bottom-color: rgb(111, 207, 15);
     border-width: 1px;
     bottom: 0px;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
     padding-top: 10px;
-    bottom:0;
-    margin:0;   
+
 }
 
 .footer-text p {
@@ -205,6 +207,7 @@ footer {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-left: 10px;
 }
 
 #kontakt-info {
@@ -229,6 +232,15 @@ footer {
 .kontakt-aleks {
     margin-top: 80px;
     display: flex;
+    flex-direction: row;
+}
+
+.kontakt-fabio {
+    padding-right: 40px;
+}
+
+.kontakt-aleks-fabio {
+    display:flex;
     flex-direction: row;
 }
 
@@ -280,7 +292,7 @@ footer {
     height: 50px;
     width: 50px;
     margin-top: 0.4cm;
-    float: right;
+    float:right;
     padding: 8px;
     
 

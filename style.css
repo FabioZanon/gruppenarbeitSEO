@@ -1,17 +1,14 @@
 html  {
     scroll-behavior: smooth;
-    
 }
 
 body {
 
    
-    font-family:'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     background: url(img/seo-bild.PNG);
     border-radius: 15px;
-   
-
 }
 
 .wrapper {
@@ -23,8 +20,8 @@ body {
 }
 
 .wrapper2 {
+    color: white;
 
-       color: white;
 }
 
 #kontakt-info {
@@ -43,12 +40,15 @@ body {
 
 .kontakt-info-text p {
     margin: 3px 0 3px 0;
-}
-
+} 
 .kontakt-aleks {
     margin-top: 80px;
     display: flex;
     flex-direction: row;
+}
+
+.kontakt-fabio {
+    padding-right: 40px;
 }
 
 .kontakt-aleks-fabio {
@@ -214,10 +214,10 @@ footer {
     border-bottom-color: rgb(111, 207, 15);
     border-width: 1px;
     bottom: 0px;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
     padding-top: 10px;
-    bottom:0;
-    margin:0;
+    bottom: 0;
+    margin: 0;
 }
 
 #fb {
@@ -495,6 +495,7 @@ h1 {
         display:flex;
         flex-direction: column;
         justify-content: flex-start;
+        padding-left: 10px;
     }
     
     @media (max-width: 700px) 
