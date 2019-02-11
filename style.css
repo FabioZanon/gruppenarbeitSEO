@@ -31,6 +31,7 @@ body {
     text-decoration: underline;
     font-size: 125%;
     text-decoration: none;
+    margin-bottom: 20px;
 
 }
 
@@ -46,6 +47,13 @@ body {
 
 .kontakt-aleks {
     margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.kontakt-aleks-fabio {
+    display:flex;
+    flex-direction: row;
 }
 .naveins {
 
@@ -206,7 +214,7 @@ footer {
     border-bottom-color: rgb(111, 207, 15);
     border-width: 1px;
     bottom: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     padding-top: 10px;
     bottom:0;
     margin:0;
